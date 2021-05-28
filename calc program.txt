@@ -1,0 +1,46 @@
+using system;
+public class Program
+    {
+        public static void Main(string[] args)
+        {
+            int a=Convert.ToInt32(Console.ReadLine());
+			int b=Convert.ToInt32(Console.ReadLine());
+			Console.WriteLine("1. sum \n 2.sub \n 3. mul \n 4.div ");
+			 sum1(a,b);
+			
+			Console.ReadLine();
+			
+				
+			
+			
+			
+        }
+	   public static void sum1(int a, int b)
+	   {
+	       int choice=Convert.ToInt32(Console.ReadLine());
+		   switch(choice)
+		   {
+		       case 1:
+				int sum=a+b;
+			    Console.WriteLine(sum);
+				 break;
+				   
+				case 2:
+				int sub=a-b;
+			    Console.WriteLine(sub);
+				 break;
+				   
+				  case 3:
+				int mul=a*b;
+			    Console.WriteLine(mul);
+				 break;
+				   
+				  case 4:
+				int div=a/b;
+			    Console.WriteLine(div);
+				 break;
+				   
+		   }
+	   
+	   }
+    }

@@ -1,0 +1,13 @@
+public class Program
+    {
+        public static void Main(string[] args)
+        {
+            var i=2;
+			i=Convert.ToInt32("5");
+			
+			Console.WriteLine(i);
+			Console.ReadLine();
+			
+
+        }
+    }

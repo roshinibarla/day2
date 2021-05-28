@@ -1,0 +1,25 @@
+using System;
+
+public class Program
+    {
+        public static void Main(string[] args)
+        {
+            string[][] members = new string[2][]
+		{
+			new string[]{"sam", "keer"},
+			new string[]{"tom","MSd","hrithik"}
+		};
+		for(int i=0;i<members.Length; i++)
+		{
+			for(int j=0;j<members[i].Length;j++)
+			{
+				Console.Write(members[i][j]+" ");
+			}
+			Console.WriteLine();
+		}
+		Console.WriteLine();
+
+        }
+    }
+
+

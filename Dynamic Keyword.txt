@@ -1,0 +1,16 @@
+using System;
+
+public class Program
+    {
+        public static void Main(string[] args)
+        {
+            dynamic i=2;
+			i="Vikas";
+			
+			Console.WriteLine(i);
+			Console.ReadLine();
+			
+
+        }
+    }
+

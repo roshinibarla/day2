@@ -1,0 +1,32 @@
+using System;
+
+public class Program
+    {
+        public static void Main(string[] args)
+        {  
+			string reverse="";
+			Console.WriteLine("enter a string");
+           string a=Console.ReadLine();
+			for(int i=a.Length-1; i>=0;i--)
+			{
+			     reverse += a[i].ToString();
+				
+			}
+			
+			if(reverse == a)
+			{
+				Console.WriteLine("palindrome");
+			  
+			}
+			else
+			{
+			    Console.WriteLine("Not a palindrome");
+			}
+		   
+			
+			
+			
+			
+		}
+	
+}
